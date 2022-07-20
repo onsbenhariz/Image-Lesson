@@ -71,7 +71,7 @@ if ( heightLarger2 == true ) imageHeightRatio2 = imageLargerDimension2 / imageLa
 //Ratio of 0-1 similar to style="height:auto" (websites)
 //
 //Population of Rect()
-imageX1 = width*1/2;
+imageX1 = (width-1)*1/2;
 imageY1 = height*0;
 imageWidth1 = (width-1)*1/2; //CANVAS (0,0) means point doesn't match to rectangle, missing outline on two sides
 imageHeight1 = (height-1)*1/2;
