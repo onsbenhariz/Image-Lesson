@@ -1,6 +1,6 @@
 //Global Variable
-//float imageX, imageY, imageWidth, imageHeight, imageWidthRatio=0.0, imageHeightRatio=0.0, picWidthAdjusted, picHeightAdjusted;
-//float imageLargerDimension, imageSmallerDimension;
+float imageX, imageY, imageWidth, imageHeight, imageWidthRatio=0.0, imageHeightRatio=0.0, picWidthAdjusted, picHeightAdjusted;
+float imageLargerDimension, imageSmallerDimension;
 PImage pic1,pic2;
 //Boolean widthLarger=false, heightLarger=false;
 void setup() {

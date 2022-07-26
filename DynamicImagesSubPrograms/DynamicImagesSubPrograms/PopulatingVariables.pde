@@ -1,3 +1,7 @@
+float imageX1, imageY1, imageWidth1, imageHeight1, imageLargerDimension1, imageSmallerDimension1, imageWidthRatio1=0.0, imageHeightRatio1=0.0, picWidthAdjusted1, picHeightAdjusted1;
+float imageX2, imageY2, imageWidth2, imageHeight2, imageLargerDimension2, imageSmallerDimension2, imageWidthRatio2=0.0, imageHeightRatio2=0.0, picWidthAdjusted2, picHeightAdjusted2;
+Boolean widthLarger1=false, heightLarger1=false;
+Boolean widthLarger2=false, heightLarger2=false;
 void populatingVariables() {
   //Population of Image
   pic1 = loadImage("Images Used/Landscape & Square Images/b99meme.jpg"); 
